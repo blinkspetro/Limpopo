@@ -1,11 +1,59 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #6e7ea9;
+    
+    
 }
+
 h1{
     font-weight: 600;
     font-size: 80px;
     line-height: 90px;
+    color: #192b59;
 }
+
+h2{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #192b59;
+}
+
+a{
+    text-decoration: none;
+}
+
 .navi{
     font-weight: 700;
+    color: #6e7ea9;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.trialbutton{
+    color: #ffffff;
+    font-weight: 400;
+    background-color: #1085e4;
+}
+
+.grid h2 {
+    font-weight: 700;
+    color: #192b59;
+    line-height: 50px;
+}
+
+.grid h2 span{ 
+    font-weight: 800;
+    font-size: 14px;
+    color: #1085e4;
+    display: block;
+}
+
+.grid-item h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #192b59;
 }
