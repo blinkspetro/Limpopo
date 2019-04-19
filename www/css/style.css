@@ -1,11 +1,9 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 16px;
     color: #6e7ea9;
-    
-    
 }
 
 h1{
@@ -20,6 +18,8 @@ h2{
     font-size: 50px;
     line-height: 60px;
     color: #192b59;
+    text-transform: capitalize;
+    
 }
 
 a{
@@ -97,11 +97,97 @@ a{
     color: #192b59;
 }
 
-.block-subscribe{
-
-}
-
 .block-subscribe h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    background-color: aqua;
 
 }
-.block-subscribe h2 
+.block-subscribe h2 span{
+    font-size: 14px;
+    font-weight: 800;
+    color: #00bffe;
+    display: block;
+}
+
+.block-subscribe p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #dfe8ff;
+    background-color: #00bffe;
+}
+
+.block-numbers h2 span{
+    font-size: 16px;
+    font-weight: 700;
+    color: #1085e4;
+    display: block;
+    text-transform: uppercase;
+}
+
+
+.block-numbers li{
+    font-size: 12px;
+    font-weight: 700;
+    color: #1085e4;
+    text-transform: uppercase;
+}
+
+.block-numbers li span{
+    font-size: 50px;
+    font-weight: 700;
+    color: #bacbdc;
+    display: block;
+    text-transform: uppercase;
+}
+.available_apps{
+    font-weight: 700;
+    color: #c4d2dd;
+    text-transform: uppercase;
+}
+
+.block-screenshots h2 span{
+    font-size: 40px;
+}
+
+.block-screenshots h2 span{
+    font-size: 18px;
+    font-weight: 800;
+    color: #1085e4;
+    display: block;
+    text-transform: uppercase;
+}
+
+.block-testimonials h2{
+    font-size: 40px;
+}
+
+.block-testimonials h2 span{
+    font-size: 18px;
+    font-weight: 800;
+    color: #85c8ff;
+    display: block;
+    text-transform: uppercase;
+}
+
+.block-testimonials li {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8085b1;
+}
+
+.block-testimonials h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: #000958;
+    text-transform: capitalize;
+}
+
+.block-testimonials h3 span{
+    font-size: 14px;
+    font-weight: 700;
+    color: #1085e4;
+    text-transform: uppercase;
+    display: block;
+}
